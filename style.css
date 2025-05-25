@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+     min-height: 100vh;
+    color: #fff;
+    background: #2A004E;
+}
+.container{
+   margin: 12%;
+    width: 90%;
+    max-width: 700px;
+    padding: 20px;
+    height: 100%;
+}
+.display{
+  width: 100%;
+  background: #fff;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    color: #333;
+    padding: 26px 20px;
+    border-radius: 5px;
+   
+}
+
+
+.container h1{
+    font-weight: 500;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container span{
+    color: #C62300;
+}
+.display img{
+    width :30px;
+    cursor: pointer;
+}
+.display input{
+    border: none;
+    outline: none;
+    justify-content: center;
+    font-size: 24px;
+    align-items: center;
+} 
+
+.container button img{
+    width: 30px;
+    margin-right: 10px;
+}
+.container button{
+border: 0;
+outline: 0;
+background: #F14A00;
+color:#fff;
+font-size: 22px;
+display: flex;
+align-items: center;
+font-weight: 300;
+justify-content: center;
+padding: 16px 26px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.container button:hover {
+    background: #d14e00;
+}
+
+.container div {
+    margin-bottom: 15px;
+}
+
+.container label {
+ font-size: 18px;
+border: 0;
+outline: 0;
+color:#fff;
+font-size: 22px;
+align-items: center;
+font-weight: 300;
+justify-content: center;
+padding: 16px 26px;
+border-radius: 5px;
+cursor: pointer;
+}
+.container input[type="number"] {
+    width: 80px;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+.container input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .container {
+        margin: 5%;
+    }
+    .container h1 {
+        font-size: 35px;
+    }
+    .container input[type="text"] {
+        font-size: 20px;
+    }
+    .container button {
+        font-size: 18px;
+    }
+}
